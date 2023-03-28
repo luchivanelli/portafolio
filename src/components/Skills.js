@@ -35,7 +35,7 @@ const Title = styled.h2`
 
 const Skills = ()=> {
     return (
-        <div className="container">
+        <div className="container" id="skills">
             <Title>Skills</Title>
             <div className="skills">
             {skills.map(skill => {

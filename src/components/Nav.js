@@ -2,21 +2,14 @@ import styled from "styled-components";
 import './Navbar.css'
 import { useState } from "react";
 
-const A = styled.a`
-    font-size: 18px;
-    font-weight: 500;
-    color: #fff;
-    cursor: pointer;
-    text-decoration: none;
-`
 const Nav2 = ()=> {
     return (
         <div className="nav-2">
-                <A href="./">About me</A>
-                <A href="./">Skills</A>
-                <A href="./">Proyects</A>
-                <A href="./">Contact</A>
-            </div>
+            <a href="#about" className="route">About</a>
+            <a href="#skills" className="route">Skills</a>
+            <a href="#proyects" className="route">Proyects</a>
+            <a href="#contact" className="route">Contact</a>
+        </div>
     )
 }
 
@@ -30,10 +23,10 @@ const Nav = ()=> {
     return (
         <div>
             <div className="nav-1">
-                <A href="./">About me</A>
-                <A href="./">Skills</A>
-                <A href="./">Proyects</A>
-                <A href="./">Contact</A>
+                <a href="#about" className="route">About</a>
+                <a href="#skills" className="route">Skills</a>
+                <a href="#proyects" className="route">Proyects</a>
+                <a href="#contact" className="route">Contact</a>
             </div>
             <div className="menu" onClick={handleValue}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-menu-2" width="32" height="32" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#fff" fill="none" strokeLinecap="round" strokeLinejoin="round">

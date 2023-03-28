@@ -30,7 +30,7 @@ const Description = styled.p`
 
 const About = ()=> {
     return (
-        <div className="about">
+        <div className="about" id="about">
             <Title>About Me</Title>
             <Description>Hello, my name is Luciana Vanelli, I am 22 years old and I live in Arroyo Seco, Santa Fe, Argentina.
             I am a trainee/junior web developer, oriented to the frontend branch.</Description>
