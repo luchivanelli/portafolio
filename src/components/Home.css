@@ -1,0 +1,50 @@
+.home {
+    background-image: url('../images/img-3.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin: 20px;
+    letter-spacing: 1px;
+    backdrop-filter: blur(20px);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.developer {
+    background-color: #fff;
+    padding: 10px 15px;
+    mix-blend-mode: screen;
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .name {
+        font-size: 22px;
+    }
+
+    .developer {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .name {
+        font-size: 24px;
+    }
+
+    .developer {
+        font-size: 36px;
+    }
+}
+

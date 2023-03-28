@@ -1,0 +1,135 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 0;
+}
+
+.cv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.certificates-container {
+    background-color: #0b2e59;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.certificates {
+    display: none;
+}
+
+.certificates2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 40px;
+    padding: 0 20px;
+    flex-wrap: wrap;
+    width: 60%;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.certificate {
+    width: 230px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.certificate img {
+    object-fit: cover;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.certificate img:hover {
+    transform: scale(1.05);
+    transition: all 0.2s;
+}
+
+.certificateEfect {
+    opacity: 0.5;
+    filter: blur(2px);
+}
+
+.title {
+    position: absolute;
+    z-index: 10;
+    margin: auto;
+    font-weight: 700;
+    background-color: #fff;
+    mix-blend-mode: screen;
+    padding: 2px 4px;
+}
+
+@media screen and (min-width: 768px) {
+    .certificates2 {
+        display: none;
+    }
+
+    .certificateEfect {
+        opacity: 1;
+        filter: none;
+    }
+    
+    .title {
+        display: none;
+    }
+    
+    .certificates {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+        width: 80%;
+        margin: 20px auto 40px;
+        padding: 0 20px;
+        flex-wrap: wrap;
+    }
+
+    .certificate {
+        flex: 1;
+        overflow: hidden;
+        padding: 0 5px;
+        transition: all 0.3s;
+    }
+    
+    .certificate img{
+        object-fit: cover;
+        filter: grayscale(1);
+        width: 100%;
+    }
+    
+    .certificate:hover {
+        flex: 1.5;
+        transform: none;
+        transition: all 0.2s;
+    }
+    
+    .certificate img:hover {
+        filter: none;
+    }
+
+    .about p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .about p {
+        width: 50%;
+    }
+
+    .certificates {
+        width: 70%;
+    }
+}

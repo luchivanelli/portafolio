@@ -1,0 +1,46 @@
+.container {
+    background-color: var(--color-6);
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 60px 40px 80px;
+}
+
+.skills-2 {
+    padding-bottom: 40px;
+}
+
+.skill {
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skill img {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .skills {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .skill {
+        width: 60px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .skills {
+        width: 94%;
+    }
+}

@@ -1,0 +1,55 @@
+.proyects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+.proyect {
+    display: flex;
+    height: 140px;
+    width: 80%;
+    border: 2px solid #000;
+}
+
+.div-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-img img {
+    width: 50%;
+    height: 100%;
+}
+
+.div-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 10px;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .proyects {
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .proyect {
+        width: 300px;
+        margin: 0 40px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
