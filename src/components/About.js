@@ -32,7 +32,7 @@ const About = ()=> {
     return (
         <div className="about" id="about">
             <Title>About Me</Title>
-            <Description>Hello, my name is Luciana Vanelli, I am 22 years old and I live in Arroyo Seco, Santa Fe, Argentina. I am a trainee/junior web developer, oriented to the frontend branch. I studied Systems Engineering for 2 years at the National Technological University of Rosario</Description>
+            <Description>Hello, my name is Luciana Vanelli, I am 22 years old and I live in Arroyo Seco, Santa Fe, Argentina. I am a junior web developer, oriented to the frontend branch. I studied Systems Engineering for 2 years at the National Technological University of Rosario</Description>
             <Description>I consider myself a self-taught person eager to grow and acquire new skills. Currently, I am taking courses to improve myself and thus, be able to insert myself into the world of work.</Description>
             <Description><b>Goals:</b> Sass, Bootstrap, Flutter</Description>
             <Cv/>
