@@ -7,7 +7,7 @@ const proyects = [
     {title: 'PIA', link: 'https://luchivanelli.github.io/LandingPagePIA/', skills: 'Html, Css', img: 'https://www.svgrepo.com/show/510167/robot.svg'},
     {title: 'Images search', link: 'https://luchivanelli.github.io/buscador/', skills: 'React (Formik, Api "unsplash")', img: 'https://www.svgrepo.com/show/502798/photo.svg'},
     {title: 'Compound interest calculator', link: 'https://luchivanelli.github.io/interes-compuesto/', skills: 'React (Formik, Styled-components, Yup)', img: 'https://www.svgrepo.com/show/501117/calculator.svg'},
-    {title: 'My attached', link: 'https://luchivanelli.github.io/portafolio/', skills: 'React (Styled-components), Css', img: 'https://www.svgrepo.com/show/510353/woman.svg'},
+    {title: 'Friends Calculator', link: 'https://luchivanelli.github.io/calculator/', skills: 'React (React-router-dom, Formik), Sass, BEM methodology', img: 'https://www.svgrepo.com/show/483987/personal-connections-3.svg'},
 ]
 
 const Title = styled.h2`
