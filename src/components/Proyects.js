@@ -8,6 +8,7 @@ const proyects = [
     {title: 'Images search', link: 'https://luchivanelli.github.io/buscador/', skills: 'React (Formik, Api "unsplash")', img: 'https://www.svgrepo.com/show/502798/photo.svg'},
     {title: 'Compound interest calculator', link: 'https://luchivanelli.github.io/interes-compuesto/', skills: 'React (Formik, Styled-components, Yup)', img: 'https://www.svgrepo.com/show/501117/calculator.svg'},
     {title: 'Friends Calculator', link: 'https://luchivanelli.github.io/calculator/', skills: 'React (React-router-dom, Formik), Sass, BEM methodology', img: 'https://www.svgrepo.com/show/483987/personal-connections-3.svg'},
+    {title: 'To do list', link: 'https://luchivanelli.github.io/todolist/', skills: 'React (Redux toolkit), Sass, BEM methodology', img: 'https://www.svgrepo.com/show/497577/task.svg'}
 ]
 
 const Title = styled.h2`
