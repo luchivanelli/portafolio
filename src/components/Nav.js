@@ -7,7 +7,7 @@ const Nav2 = ()=> {
         <div className="nav-2">
             <a href="#about" className="route">About</a>
             <a href="#skills" className="route">Skills</a>
-            <a href="#proyects" className="route">Proyects</a>
+            <a href="#proyects" className="route">Projects</a>
             <a href="#contact" className="route">Contact</a>
         </div>
     )
@@ -25,7 +25,7 @@ const Nav = ()=> {
             <div className="nav-1">
                 <a href="#about" className="route">About</a>
                 <a href="#skills" className="route">Skills</a>
-                <a href="#proyects" className="route">Proyects</a>
+                <a href="#proyects" className="route">Projects</a>
                 <a href="#contact" className="route">Contact</a>
             </div>
             <div className="menu" onClick={handleValue}>

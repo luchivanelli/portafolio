@@ -6,6 +6,7 @@ const skills = [
     {title: 'HTML', url: 'https://www.svgrepo.com/show/508839/html5-02.svg'},
     {title: 'CSS', url: 'https://www.svgrepo.com/show/508795/css3-02.svg'},
     {title: 'SASS', url: 'https://www.svgrepo.com/show/394408/sass.svg'},
+    {title: 'BOOTSTRAP', url: 'https://www.svgrepo.com/show/378490/bootstrap-fill.svg'},
     {title: 'JAVASCRIPT', url: 'https://www.svgrepo.com/show/378430/javascript-fill.svg'},
     {title: 'REACT', url: 'https://www.svgrepo.com/show/503536/react.svg'},
     {title: 'GIT', url: 'https://www.svgrepo.com/show/509966/git.svg'},
