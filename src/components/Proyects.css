@@ -11,7 +11,6 @@
 
 .proyect {
     display: flex;
-    height: 140px;
     width: 80%;
     border: 2px solid #000;
 }
@@ -24,7 +23,7 @@
 
 .div-img img {
     width: 50%;
-    height: 100%;
+    max-height: 150px;
 }
 
 .div-info {
