@@ -8,32 +8,38 @@ import Contact from './components/Contact'
 import { useState } from 'react'
 
 const App = ()=> {
-  const [state, setState] = useState(true)
+  // const [state, setState] = useState(true)
   
-  const componentsRender = ()=> {
-    setTimeout(()=> {
-      setState(false)
-    }, 3000)
-  }
+  // const componentsRender = ()=> {
+  //   setTimeout(()=> {
+  //     setState(false)
+  //   }, 3000)
+  // }
 
-  componentsRender()
+  // componentsRender()
 
-  if (state) {
-    return (
-      <Loader/>
-    )
-  } else {
-    return (
-      <div className="App">
-        <Navbar/>
-        <Home/>
-        <About/>
-        <Skills/>
-        <Proyects/>
-        <Contact/>
-      </div>
-    )
-  }
+  // if (state) {
+  //   return (
+  //     <Loader/>
+  //   )
+  // } else {
+  //   return (
+  //     <div className="App">
+  //       <Navbar/>
+  //       <Home/>
+  //       <About/>
+  //       <Skills/>
+  //       <Proyects/>
+  //       <Contact/>
+  //     </div>
+  //   )
+  // }
+
+  return (
+    <div className='nuevo'>
+      <a href='https://luchivanelli.github.io/portfolio/' target='_blank'>Nuevo portfolio</a>
+    </div>
+  )
 }
 
 export default App;

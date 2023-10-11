@@ -16,3 +16,15 @@ body {
   margin: 0;
   font-family: 'Ubuntu', sans-serif;
 }
+
+.nuevo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.nuevo a {
+  font-size: 30px;
+  color: #2a044a;
+}
